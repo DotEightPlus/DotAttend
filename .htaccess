@@ -1,7 +1,3 @@
-ErrorDocument 404 /./oops
-ErrorDocument 403 /./oops
-ErrorDocument 500 /./oops
-
 RewriteEngine on 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
